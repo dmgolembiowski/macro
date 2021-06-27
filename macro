@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-folder=~/.local/share/macro
+mkdir -p "$USER/.local/share/macro"
+folder=$USER/.local/share/macro
 historyfile=${folder}/history.sh
 registerfile=${folder}/${REGISTER:-default}.sh
 
